@@ -1,0 +1,28 @@
+# Ruby
+Gemfile.lock
+Gemfile.local
+Gemfile.local.rb
+pkg
+.bundle
+
+# RubyMine
+.idea
+
+# Tests
+test/reports
+coverage
+
+# rvm/rbenv
+.ruby-gemset
+.ruby-version
+
+# Editors
+tags
+.tramp_history
+
+# Locale files
+locale/*/*.edit.po
+locale/*/*.po.time_stamp
+
+# Jupyter
+rel-eng/.ipynb_checkpoints
