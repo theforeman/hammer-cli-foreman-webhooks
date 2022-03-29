@@ -95,6 +95,21 @@ module HammerCLIForemanWebhooks
       build_options
     end
 
+    class ExportCommand < HammerCLIForeman::DownloadCommand
+      command_name "export"
+      action :export
+
+      def saved_response_message(filepath)
+        _("The webhook template has been saved to %{path}.") % { path: filepath }
+      end
+
+      def default_filename
+        "Webhook Template-#{Time.new.strftime("%Y-%m-%d")}.txt"
+      end
+
+      build_options
+    end
+
     autoload_subcommands
   end
 end
