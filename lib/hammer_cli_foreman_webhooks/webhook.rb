@@ -23,6 +23,7 @@ module HammerCLIForemanWebhooks
         custom_field Fields::Reference, label: _('Webhook Template'), path: [:webhook_template]
         field :user, _('User'), Fields::Field, sets: %w[ADDITIONAL ALL]
         field :verify_sll, _('Verify SSL'), Fields::Boolean, sets: %w[ADDITIONAL ALL]
+        field :proxy_authorization, _('Proxy Authorization'), Fields::Boolean, sets: %w[ADDITIONAL ALL]
         field :ssl_ca_certs, _('X509 Certification Authorities'), Fields::Text, sets: %w[ADDITIONAL ALL]
         collection :http_headers, _('HTTP Headers'), sets: %w[ADDITIONAL ALL] do
           custom_field Fields::KeyValue
