@@ -21,11 +21,11 @@ module HammerCLIForemanWebhooks
         field :http_method, _('HTTP Method')
         field :http_content_type, _('HTTP Content Type')
         custom_field Fields::Reference, label: _('Webhook Template'), path: [:webhook_template]
-        field :user, _('User'), Fields::Field, sets: %w[ADDITIONAL ALL]
-        field :verify_sll, _('Verify SSL'), Fields::Boolean, sets: %w[ADDITIONAL ALL]
-        field :proxy_authorization, _('Proxy Authorization'), Fields::Boolean, sets: %w[ADDITIONAL ALL]
+        field :user, _('User'), Fields::Field
+        field :verify_ssl, _('Verify SSL'), Fields::Boolean
+        field :proxy_authorization, _('Proxy Authorization'), Fields::Boolean
         field :ssl_ca_certs, _('X509 Certification Authorities'), Fields::Text, sets: %w[ADDITIONAL ALL]
-        collection :http_headers, _('HTTP Headers'), sets: %w[ADDITIONAL ALL] do
+        collection :http_headers, _('HTTP Headers') do
           custom_field Fields::KeyValue
         end
         HammerCLIForeman::References.timestamps(self)
@@ -42,7 +42,7 @@ module HammerCLIForemanWebhooks
 
       build_options without: %i[ssl_ca_certs http_headers]
 
-      extend_with(HammerCLIForemanWebhooks::CommandExtensions::Webhook.new(only: :options))
+      extend_with(HammerCLIForemanWebhooks::CommandExtensions::Webhook.new(only: %i[option request_params]))
     end
 
     class UpdateCommand < HammerCLIForeman::UpdateCommand
@@ -51,7 +51,7 @@ module HammerCLIForemanWebhooks
 
       build_options without: %i[ssl_ca_certs http_headers]
 
-      extend_with(HammerCLIForemanWebhooks::CommandExtensions::Webhook.new(only: :options))
+      extend_with(HammerCLIForemanWebhooks::CommandExtensions::Webhook.new(only: %i[option request_params]))
     end
 
     class DeleteCommand < HammerCLIForeman::DeleteCommand
