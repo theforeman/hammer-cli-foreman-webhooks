@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli-foreman-webhooks package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer-cli-foreman-webhooks 0.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 17:00+0000\n"
+"PO-Revision-Date: 2023-07-12 17:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../lib/hammer_cli_foreman_webhooks/command_extensions/webhook.rb:7
+msgid "File containing X509 Certification Authorities concatenated in PEM format"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:9
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:9
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:24
+msgid "Id"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:10
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:10
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:25
+msgid "Name"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:11
+msgid "Target URL"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:12
+msgid "Enabled"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:20
+msgid "Event"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:21
+msgid "HTTP Method"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:22
+msgid "HTTP Content Type"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:23
+msgid "Webhook Template"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:24
+msgid "User"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:25
+msgid "Verify SSL"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:26
+msgid "Proxy Authorization"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:27
+msgid "X509 Certification Authorities"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:28
+msgid "HTTP Headers"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:40
+msgid "Webhook [%{name}] created."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:41
+msgid "Could not create the webhook"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:49
+msgid "Webhook [%{name}] updated."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:50
+msgid "Could not update the webhook"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:58
+msgid "Webhook [%{name}] deleted."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook.rb:59
+msgid "Could not delete the webhook"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:18
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:26
+msgid "Description"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:19
+msgid "Locked"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:20
+msgid "Default"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:23
+msgid "Template inputs"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:27
+msgid "Required"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:28
+msgid "Options"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:39
+msgid "Webhook template cloned."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:40
+msgid "Could not clone the webhook template"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:53
+msgid "Path to a file that contains the webhook template content including metadata"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:60
+msgid "Imported webhook template successfully."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:61
+msgid "Could not import the webhook template"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:68
+msgid "View webhook template content"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:78
+msgid "Webhook template [%{name}] created."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:79
+msgid "Could not create the webhook template"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:85
+msgid "Webhook template [%{name}] updated."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:86
+msgid "Could not update the webhook template"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:92
+msgid "Webhook template [%{name}] deleted."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:93
+msgid "Could not delete the webhook template"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_webhooks/webhook_template.rb:103
+msgid "The webhook template has been saved to %{path}."
+msgstr ""

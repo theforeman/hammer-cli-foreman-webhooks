@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'gettext', '>= 3.1.3', '< 4.0.0'
+
 group :test do
   gem 'ci_reporter_minitest', '~> 1.0.0', require: false
   gem 'minitest', '5.18'

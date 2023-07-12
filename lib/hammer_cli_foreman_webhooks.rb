@@ -5,6 +5,7 @@ module HammerCLIForemanWebhooks
   require 'hammer_cli_foreman'
 
   require 'hammer_cli_foreman_webhooks/version'
+  require 'hammer_cli_foreman_webhooks/i18n'
   require 'hammer_cli_foreman_webhooks/command_extensions'
   require 'hammer_cli_foreman_webhooks/webhook'
   require 'hammer_cli_foreman_webhooks/webhook_template'
