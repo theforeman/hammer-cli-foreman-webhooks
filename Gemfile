@@ -13,6 +13,7 @@ group :test do
   gem 'mocha'
   gem 'rake', '~> 13.0'
   gem 'simplecov'
+  gem 'theforeman-rubocop', '~> 0.1.0'
   gem 'thor'
 end
 
