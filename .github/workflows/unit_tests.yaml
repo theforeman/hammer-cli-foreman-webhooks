@@ -1,50 +1,25 @@
-name: Run tests
+name: CI
 
 on:
-  - push
-  - pull_request
+  pull_request:
+  push:
+    branches:
+      - "master"
+
+concurrency:
+  group: ${{ github.ref_name }}-${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: hammer-cli-foreman-webhooks
-    strategy:
-      fail-fast: false
-      matrix:
-        ruby:
-          - 2.7
-          - 3.0
-          - 3.1
+  rubocop:
+    name: Rubocop
+    uses: theforeman/actions/.github/workflows/rubocop.yml@v0
+    with:
+      command: bundle exec rubocop --parallel --format github
 
-    steps:
-      - name: Get hammer-cli
-        uses: actions/checkout@v2
-        with:
-          repository: theforeman/hammer-cli
-          ref: master
-          path: hammer-cli
-      - name: Get hammer-cli-foreman
-        uses: actions/checkout@v2
-        with:
-          repository: theforeman/hammer-cli-foreman
-          ref: master
-          path: hammer-cli-foreman
-      - name: Get hammer-cli-foreman-webhooks
-        uses: actions/checkout@v2
-        with:
-          path: hammer-cli-foreman-webhooks
-      - name: Configure local gem dependencies
-        run: |
-          echo "gemspec path: '../hammer-cli', name: 'hammer_cli'" > Gemfile.local.rb
-          echo "gemspec path: '../hammer-cli-foreman', name: 'hammer_cli_foreman'" >> Gemfile.local.rb
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-          bundler-cache: true
-          working-directory: hammer-cli-foreman-webhooks
-      - name: Run tests
-        run: |
-          bundle exec rake test
+  test:
+    name: Tests
+    needs: rubocop
+    uses: theforeman/actions/.github/workflows/test-gem.yml@v0
+    with:
+      command: bundle exec rake test
