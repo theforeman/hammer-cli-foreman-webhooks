@@ -1,9 +1,9 @@
 [main]
 host = https://app.transifex.com
 
-[o:foreman:p:foreman:r:hammer-cli-foreman-webhooks]
-file_filter = locale/<lang>/hammer-cli-foreman-webhooks.edit.po
-source_file = locale/hammer-cli-foreman-webhooks.pot
+[o:foreman:p:foreman:r:hammer_cli_foreman_webhooks]
+file_filter = locale/<lang>/hammer_cli_foreman_webhooks.edit.po
+source_file = locale/hammer_cli_foreman_webhooks.pot
 source_lang = en
 type = PO
-resource_name = hammer-cli-foreman-webhooks
+resource_name = hammer_cli_foreman_webhooks
