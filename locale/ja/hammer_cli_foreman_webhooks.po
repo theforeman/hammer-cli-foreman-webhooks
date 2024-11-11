@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli-foreman-webhooks package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# 0868a4d1af5275b3f70b0a6dac4c99a4, 2023
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_webhooks 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 17:00+0000\n"
+"PO-Revision-Date: 2023-10-05 11:06+0000\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden "
+"<ewoud+transifex@kohlvanwijngaarden.nl>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/foreman/teams/114/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ""
+"File containing X509 Certification Authorities concatenated in PEM format"
+msgstr "PEM 形式で連結された X509 認証局を含むファイル"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Target URL"
+msgstr "ターゲット URL"
+
+msgid "Enabled"
+msgstr "有効化済み"
+
+msgid "Event"
+msgstr "イベント"
+
+msgid "HTTP Method"
+msgstr "HTTP メソッド"
+
+msgid "HTTP Content Type"
+msgstr "HTTP コンテンツタイプ"
+
+msgid "Webhook Template"
+msgstr "Webhook テンプレート"
+
+msgid "User"
+msgstr "ユーザー"
+
+msgid "Verify SSL"
+msgstr "SSL の確認"
+
+msgid "Proxy Authorization"
+msgstr "プロキシー認可"
+
+msgid "X509 Certification Authorities"
+msgstr "X509 証明機関"
+
+msgid "HTTP Headers"
+msgstr "HTTP ヘッダー"
+
+msgid "Webhook [%{name}] created."
+msgstr "Webhook [%{name}] を作成しました。"
+
+msgid "Could not create the webhook"
+msgstr "Webhook を作成できませんでした"
+
+msgid "Webhook [%{name}] updated."
+msgstr "Webhook [%{name}] を更新しました。"
+
+msgid "Could not update the webhook"
+msgstr "Webhook を更新できませんでした"
+
+msgid "Webhook [%{name}] deleted."
+msgstr "Webhook [%{name}] を削除しました。"
+
+msgid "Could not delete the webhook"
+msgstr "Webhook を削除できませんでした"
+
+msgid "Description"
+msgstr "説明"
+
+msgid "Locked"
+msgstr "ロック"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Template inputs"
+msgstr "テンプレート入力"
+
+msgid "Required"
+msgstr "必須"
+
+msgid "Options"
+msgstr "オプション"
+
+msgid "Webhook template cloned."
+msgstr "Webhook テンプレートのクローンを作成しました。"
+
+msgid "Could not clone the webhook template"
+msgstr "Webhook テンプレートのクローンを作成できませんでした"
+
+msgid ""
+"Path to a file that contains the webhook template content including metadata"
+msgstr "メタデータなどの Webhook テンプレートコンテンツを含むファイルへのパス"
+
+msgid "Imported webhook template successfully."
+msgstr "Webhook テンプレートが正常にインポートされました。"
+
+msgid "Could not import the webhook template"
+msgstr "Webhook テンプレートをインポートできませんでした"
+
+msgid "View webhook template content"
+msgstr "Webhook テンプレートコンテンツの表示"
+
+msgid "Webhook template [%{name}] created."
+msgstr "Webhook テンプレート [%{name}] を作成しました。"
+
+msgid "Could not create the webhook template"
+msgstr "Webhook テンプレートを作成できませんでした"
+
+msgid "Webhook template [%{name}] updated."
+msgstr "Webhook テンプレート [%{name}] を更新しました。"
+
+msgid "Could not update the webhook template"
+msgstr "Webhook テンプレートを更新できませんでした"
+
+msgid "Webhook template [%{name}] deleted."
+msgstr "Webhook テンプレート [%{name}] を削除しました。"
+
+msgid "Could not delete the webhook template"
+msgstr "Webhook テンプレートを削除できませんでした"
+
+msgid "The webhook template has been saved to %{path}."
+msgstr "Webhook テンプレートが %{path} に保存されました。"

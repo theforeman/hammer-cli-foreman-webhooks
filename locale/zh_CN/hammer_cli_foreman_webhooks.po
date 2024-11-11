@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli-foreman-webhooks package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# 0868a4d1af5275b3f70b0a6dac4c99a4, 2023
+# Bryan Kearney <bryan.kearney@gmail.com>, 2023
+# tim123, 2023
+# Amit Upadhye <aupadhye@redhat.com>, 2023
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_webhooks 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 17:00+0000\n"
+"PO-Revision-Date: 2023-10-05 11:06+0000\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden "
+"<ewoud+transifex@kohlvanwijngaarden.nl>, 2024\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/foreman/teams/114/"
+"zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ""
+"File containing X509 Certification Authorities concatenated in PEM format"
+msgstr "包含 PEM 格式的 X509 认证颁发机构 (CA) 的文件"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Target URL"
+msgstr "目标 URL"
+
+msgid "Enabled"
+msgstr "启用"
+
+msgid "Event"
+msgstr "事件"
+
+msgid "HTTP Method"
+msgstr "HTTP 方法"
+
+msgid "HTTP Content Type"
+msgstr "HTTP 內容类型"
+
+msgid "Webhook Template"
+msgstr "Webhook 模板"
+
+msgid "User"
+msgstr "用户"
+
+msgid "Verify SSL"
+msgstr "验证 SSL"
+
+msgid "Proxy Authorization"
+msgstr "代理授权"
+
+msgid "X509 Certification Authorities"
+msgstr "X509 认证颁发机构"
+
+msgid "HTTP Headers"
+msgstr "HTTP 标头"
+
+msgid "Webhook [%{name}] created."
+msgstr "Webhook [%{name}] 已创建。"
+
+msgid "Could not create the webhook"
+msgstr "无法创建 webhook"
+
+msgid "Webhook [%{name}] updated."
+msgstr "Webhook [%{name}] 已更新。"
+
+msgid "Could not update the webhook"
+msgstr "无法更新 webhook"
+
+msgid "Webhook [%{name}] deleted."
+msgstr "Webhook [%{name}] 已删除。"
+
+msgid "Could not delete the webhook"
+msgstr "无法删除 webhook"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Locked"
+msgstr "锁定"
+
+msgid "Default"
+msgstr "默认"
+
+msgid "Template inputs"
+msgstr "模板输入"
+
+msgid "Required"
+msgstr "必需的"
+
+msgid "Options"
+msgstr "选项"
+
+msgid "Webhook template cloned."
+msgstr "克隆 Webhook 模板。"
+
+msgid "Could not clone the webhook template"
+msgstr "无法克隆 webhook 模板"
+
+msgid ""
+"Path to a file that contains the webhook template content including metadata"
+msgstr "包含 webhook 模板内容（包括元数据）的文件的路径"
+
+msgid "Imported webhook template successfully."
+msgstr "成功导入 Webhook 模板。"
+
+msgid "Could not import the webhook template"
+msgstr "无法导入 webhook 模板"
+
+msgid "View webhook template content"
+msgstr "查看 webhook 模板内容"
+
+msgid "Webhook template [%{name}] created."
+msgstr "创建 Webhook 模板 [%{name}]"
+
+msgid "Could not create the webhook template"
+msgstr "无法创建 webhook 模板"
+
+msgid "Webhook template [%{name}] updated."
+msgstr "更新 Webhook 模板 [%{name}]。"
+
+msgid "Could not update the webhook template"
+msgstr "无法更新 webhook 模板"
+
+msgid "Webhook template [%{name}] deleted."
+msgstr "删除 Webhook 模板 [%{name}]。"
+
+msgid "Could not delete the webhook template"
+msgstr "无法删除 webhook 模板"
+
+msgid "The webhook template has been saved to %{path}."
+msgstr "webhook 模板已被保存到 %{path}。"

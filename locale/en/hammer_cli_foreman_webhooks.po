@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli-foreman-webhooks package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_webhooks 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-11 20:09+0100\n"
+"PO-Revision-Date: 2023-07-12 17:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid ""
+"File containing X509 Certification Authorities concatenated in PEM format"
+msgstr ""
+
+msgid "Id"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Target URL"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "HTTP Method"
+msgstr ""
+
+msgid "HTTP Content Type"
+msgstr ""
+
+msgid "Webhook Template"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Verify SSL"
+msgstr ""
+
+msgid "Proxy Authorization"
+msgstr ""
+
+msgid "X509 Certification Authorities"
+msgstr ""
+
+msgid "HTTP Headers"
+msgstr ""
+
+msgid "Webhook [%{name}] created."
+msgstr ""
+
+msgid "Could not create the webhook"
+msgstr ""
+
+msgid "Webhook [%{name}] updated."
+msgstr ""
+
+msgid "Could not update the webhook"
+msgstr ""
+
+msgid "Webhook [%{name}] deleted."
+msgstr ""
+
+msgid "Could not delete the webhook"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Template inputs"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Webhook template cloned."
+msgstr ""
+
+msgid "Could not clone the webhook template"
+msgstr ""
+
+msgid ""
+"Path to a file that contains the webhook template content including metadata"
+msgstr ""
+
+msgid "Imported webhook template successfully."
+msgstr ""
+
+msgid "Could not import the webhook template"
+msgstr ""
+
+msgid "View webhook template content"
+msgstr ""
+
+msgid "Webhook template [%{name}] created."
+msgstr ""
+
+msgid "Could not create the webhook template"
+msgstr ""
+
+msgid "Webhook template [%{name}] updated."
+msgstr ""
+
+msgid "Could not update the webhook template"
+msgstr ""
+
+msgid "Webhook template [%{name}] deleted."
+msgstr ""
+
+msgid "Could not delete the webhook template"
+msgstr ""
+
+msgid "The webhook template has been saved to %{path}."
+msgstr ""
