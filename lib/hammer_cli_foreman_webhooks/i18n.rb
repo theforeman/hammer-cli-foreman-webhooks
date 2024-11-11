@@ -12,7 +12,7 @@ module HammerCLIForemanWebhooks
       end
 
       def domain_name
-        'hammer-cli-foreman-webhooks'
+        'hammer_cli_foreman_webhooks'
       end
     end
 
