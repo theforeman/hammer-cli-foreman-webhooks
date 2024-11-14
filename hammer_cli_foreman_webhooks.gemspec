@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Oleh Fedorenko']
   spec.email         = ['ofedoren@redhat.com']
   spec.homepage      = 'https://github.com/theforeman/hammer-cli-foreman-webhooks'
-  spec.license       = 'GPL-3.0'
+  spec.license       = 'GPL-3.0-only'
 
   spec.platform      = Gem::Platform::RUBY
   spec.summary       = 'Foreman Webhooks plugin for Hammer CLI'
