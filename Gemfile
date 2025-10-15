@@ -8,7 +8,7 @@ gem 'gettext', '>= 3.1.3', '< 4.0.0'
 
 group :test do
   gem 'ci_reporter_minitest', '~> 1.0.0', require: false
-  gem 'minitest', '5.18'
+  gem 'minitest', '~> 5.18'
   gem 'minitest-spec-context'
   gem 'mocha'
   gem 'rake', '~> 13.0'

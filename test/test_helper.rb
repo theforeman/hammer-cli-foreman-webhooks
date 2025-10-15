@@ -2,7 +2,7 @@ ENV['TEST_API_VERSION'] = ENV['TEST_API_VERSION'] || '3.3'
 FOREMAN_WEBHOOKS_VERSION = Gem::Version.new(ENV['TEST_API_VERSION']).to_s
 
 require 'minitest/autorun'
-require 'minitest/spec'
+require 'minitest/unit'
 require 'minitest-spec-context'
 require 'mocha/minitest'
 require 'hammer_cli'
