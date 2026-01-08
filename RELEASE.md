@@ -4,7 +4,7 @@ To release the plugin the following steps are required:
 1. Checkout the branch you want to make the release from
 2. Determine what the next version should be
    - We try to follow [semantic versioning (semver)](https://semver.org)
-   - Usually we increase the major version only if we bumped the dependency on Foreman
+   - Usually we don't increase the major version for hammer plugins, only minor if it requires a newer corresponding Foreman plugin. Most of the time you bump patch version.
    - For the rest we follow semver
 3. Bump the version in the version file - `lib/hammer_cli_foreman_webhooks/version.rb`
 4. Make a commit "Bump version to $version"
