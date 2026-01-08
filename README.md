@@ -8,7 +8,7 @@ This Hammer CLI plugin contains set of commands for [foreman_webhooks](
 
 This is the list of which version of Foreman Webhooks is needed to which version of this plugin.
 
-| hammer_cli_foreman_webhooks | v0.0.1 | v0.0.3 |  
+| hammer_cli_foreman_webhooks | v0.0.1 | v0.0.3 |
 |-----------------------------|--------|--------|
 |            foreman_webhooks | v0.0.1 | v3.0.2 |
 
@@ -30,3 +30,7 @@ This is the list of which version of Foreman Webhooks is needed to which version
 
 See our [Hammer CLI installation and configuration instuctions](
 https://github.com/theforeman/hammer-cli/blob/master/doc/installation.md#installation).
+
+## Release
+
+Please refer to [RELEASE.md](RELEASE.md)
